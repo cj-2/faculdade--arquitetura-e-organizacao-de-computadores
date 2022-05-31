@@ -1,0 +1,13 @@
+# Memórias, Entrada e Saída e Interconexão
+
+A memória RAM (Random Access Memory) possibilita aos processadores endereçar dados divididos em regiões distintas, usadas pelo sistema operacional da máquina, verificar informações de dispositivos de entrada e saída, de programas do usuário e dados gerados por esses programas. A capacidade de administrar a quantidade de memória RAM cresceu a cada geração de processador, pois é ele quem administra o endereçamento de dados através das funções de seus registradores e de seu barramento. Nos processadores de 32 bits era possível o endereçamento de, no máximo, 4 GB de memória RAM e somente nos processadores de 64 bits passou a ser possível quantidades maiores de memória (SOUZA FILHO; ALEXANDRE, 2014).
+
+Um espaço de memória pode conter uma instrução de um programa ou um dado qualquer, que serão endereçados na memória pela unidade de controle da CPU. Os dados que serão processados pela ULA ficam na memória e a unidade de controle endereça estes dados. Isso permite que a ULA identifique onde estão os dados a serem processados, execute as operações necessárias, e a unidade de controle pode definir onde armazenar os dados resultantes do processamento. A memória que recebe esse endereçamento e é usada para receber as informações da unidade de entrada e as processadas pelo computador é a memória RAM (SOUZA FILHO; ALEXANDRE, 2014).
+
+Nessa arquitetura de computadores estão previstas também as unidades de entrada e saída de dados. Como você já deve ter visto, estas unidades são compostas por diversos dispositivos e podem ser divididos em (SOUZA FILHO; ALEXANDRE, 2014):
+
+-   Dispositivos de Entrada: nos quais podemos inserir/entrar com dados no computador. Exemplo: teclado, mouse, telas sensíveis ao toque (touch screen).
+-   Dispositivos de Saída: em que os dados podem ser visualizados. Exemplo: telas e impressoras.
+-   Dispositivos de Entrada/Saída: são dispositivos que podem enviar e receber dados, como o disco rígido, pen drives, as conexões de internet via cabo e Wi-Fi, monitores e telas touch screen, dentre outros (FONSECA FILHO, 2007).
+
+A via de transmissão de dados entre a CPU e a memória limita de certa forma a velocidade do processamento de um computador. Os barramentos têm esta função e a troca de dados entre o processador e a memória fica limitada pela taxa de transferência de dados que esses barramentos são capazes de proporcionar, que em geral são bem menores que a capacidade dos processadores, sendo um fator limitador da velocidade atingida no processamento das informações. Esse problema aumenta a cada nova geração e o desenvolvimento de tecnologia com maior número de barramentos é uma das soluções adotadas pelos fabricantes de tecnologia (TANENBAUM, 2006).
